@@ -1,0 +1,14 @@
+.schedule-page-wrapper {
+  display: grid;
+  grid-template-rows: auto 1fr;
+  grid-template-columns: 1fr;
+  margin: auto;
+  overflow: hidden;
+  height: 100%;
+  padding: 20px;
+  width: 900px;
+}
+
+.schedule-page-wrapper.with-loading {
+    grid-template-rows: 1fr;
+  }

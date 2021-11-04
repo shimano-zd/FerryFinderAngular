@@ -1,0 +1,20 @@
+<div [ngClass]="{'schedule-page-wrapper with-loading': dataLoading, 'schedule-page-wrapper' : !dataLoading}">
+
+
+  <div style="height:100%; width:100%; display: grid; place-items:center;" *ngIf="dataLoading">
+    <app-loading-spinner></app-loading-spinner>
+  </div>
+
+  <app-search-bar (search)="filterPorts($event)" [title]="title" *ngIf="!dataLoading"></app-search-bar>
+
+  <app-list-view *ngIf="!dataLoading" class="overflow-hidden">
+
+    <app-list-view-item *ngFor="let port of filteredPorts" (onClick)="port.OnClick()" [hoverable]="true">
+      <span>{{ port.PostajaNaziv }}</span>
+    </app-list-view-item>
+
+  </app-list-view>
+
+  <router-outlet class="hidden"></router-outlet>
+
+</div>

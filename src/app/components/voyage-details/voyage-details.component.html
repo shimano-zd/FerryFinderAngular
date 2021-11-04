@@ -1,0 +1,36 @@
+
+<div class="voyage-details-wrapper">
+
+  <div class="voyage-start">
+    <div class="time-display">
+      {{ startTime | date: 'HH:mm'}}
+    </div>
+    <div class="ferry-name">
+      {{ voyage.PrijevoznoSredstvoNaziv }} ({{ ferryType }})
+    </div>
+  </div>
+
+  <div class="voyage-trip">
+    <div class="ferry-image"><img alt="voyage" src="{{ images.ferry }}" class="ferry-image" /></div>
+    <div class="arrow">
+
+      <img *ngIf="isDeparture" alt="departure" src="{{ images.arrowRight}}" class="arrow-image" />
+      
+      <img *ngIf="!isDeparture" alt="arrival" src="{{ images.arrowLeft}}" class="arrow-image" />
+      
+    </div>
+    <div class="ferry-type">
+      {{ direction }}
+    </div>
+  </div>
+
+  <div class="voyage-end">
+    <div class="port-display">
+      {{ endPort }}
+    </div>
+    <div class="port-display">
+    {{ voyage.OtokNaziv}}
+    </div>
+  </div>
+
+</div>

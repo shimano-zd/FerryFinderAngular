@@ -1,0 +1,13 @@
+<div class="port-schedule-details-wrapper">
+
+    <app-loading-spinner *ngIf="loadingVoyages"></app-loading-spinner>
+    <div *ngIf="(!loadingVoyages && voyages && voyages.length === 0)">
+      <span>There are no voyages in this port.</span>
+    </div>
+    <app-list-view *ngIf="!(loadingVoyages && voyages && voyages.length > 0)" style="width:100%;">
+      <app-list-view-item *ngFor="let voyage of voyages" [hoverable]="false">
+        <app-voyage-details [voyage]="voyage"></app-voyage-details>
+      </app-list-view-item>
+    </app-list-view>
+
+</div>

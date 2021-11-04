@@ -1,0 +1,160 @@
+[
+  {
+    "Id": 1,
+    "Name": "Mate Balota",
+    "Length": 64.7,
+    "Width": 13.4,
+    "Draft": 2.9,
+    "PassengerCapacity": 440,
+    "VehicleCapacity": 50,
+    "MaxSpeed": 11,
+    "ShipType": 1,
+    "Image": "matebalota"
+  },
+  {
+    "Id": 2,
+    "Name": "Petar Hektorović",
+    "Length": 91.8,
+    "Width": 18,
+    "Draft": 3.8,
+    "PassengerCapacity": 1080,
+    "VehicleCapacity": 120,
+    "MaxSpeed": 15.5,
+    "ShipType": 1,
+    "Image": "petarhektorovic"
+  },
+  {
+    "Id": 3,
+    "Name": "Lubenice",
+    "Length": 58.5,
+    "Width": 16.7,
+    "Draft": 3.5,
+    "PassengerCapacity": 350,
+    "VehicleCapacity": 60,
+    "MaxSpeed": 13,
+    "ShipType": 1,
+    "Image": "lubenice"
+  },
+  {
+    "Id": 4,
+    "Name": "Brestova",
+    "Length": 57.6,
+    "Width": 16.8,
+    "Draft": 3.1,
+    "PassengerCapacity": 338,
+    "VehicleCapacity": 70,
+    "MaxSpeed": 12.5,
+    "ShipType": 1,
+    "Image": "brestova"
+  },
+  {
+    "Id": 5,
+    "Name": "Prizna",
+    "Length": 54,
+    "Width": 13.7,
+    "Draft": 2.5,
+    "PassengerCapacity": 300,
+    "VehicleCapacity": 60,
+    "MaxSpeed": 8,
+    "ShipType": 1,
+    "Image": "prizna"
+  },
+  {
+    "Id": 6,
+    "Name": "Sveti Juraj",
+    "Length": 49.9,
+    "Width": 12.8,
+    "Draft": 3.2,
+    "PassengerCapacity": 300,
+    "VehicleCapacity": 45,
+    "MaxSpeed": 11,
+    "ShipType": 1,
+    "Image": "svetijuraj"
+  },
+  {
+    "Id": 7,
+    "Name": "Šoltanka",
+    "Length": 48,
+    "Width": 10.8,
+    "Draft": 2.4,
+    "PassengerCapacity": 200,
+    "VehicleCapacity": 30,
+    "MaxSpeed": 11.5,
+    "ShipType": 1,
+    "Image": "soltanka"
+  },
+  {
+    "Id": 8,
+    "Name": "Vladimir Nazor",
+    "Length": 87.5,
+    "Width": 14,
+    "Draft": 3,
+    "PassengerCapacity": 450,
+    "VehicleCapacity": 70,
+    "MaxSpeed": 12.5,
+    "ShipType": 1,
+    "Image": "vladimirnazor"
+  },
+  {
+    "Id": 9,
+    "Name": "Sis",
+    "Length": 73.8,
+    "Width": 16.4,
+    "Draft": 2.5,
+    "PassengerCapacity": 700,
+    "VehicleCapacity": 770,
+    "MaxSpeed": 10.5,
+    "ShipType": 1,
+    "Image": "sis"
+
+  },
+  {
+    "Id": 10,
+    "Name": "Laslovo",
+    "Length": 41.2,
+    "Width": 16,
+    "Draft": 2.4,
+    "PassengerCapacity": 150,
+    "VehicleCapacity": 36,
+    "MaxSpeed": 9.5,
+    "ShipType": 1,
+    "Image": "laslovo"
+  },
+  {
+    "Id": 11,
+    "Name": "Kijevo",
+    "Length": 41.2,
+    "Width": 16,
+    "Draft": 2.4,
+    "PassengerCapacity": 150,
+    "VehicleCapacity": 36,
+    "MaxSpeed": 9.5,
+    "ShipType": 1,
+    "Image": "kijevo"
+  },
+  {
+    "Id": 12,
+    "Name": "Ston",
+    "Length": 41.2,
+    "Width": 16,
+    "Draft": 2.4,
+    "PassengerCapacity": 150,
+    "VehicleCapacity": 31,
+    "MaxSpeed": 9.5,
+    "ShipType": 1,
+    "Image": "ston"
+  },
+  {
+    "Id": 13,
+    "Name": "Valun",
+    "Length": 81.2,
+    "Width": 15.1,
+    "Draft": 3.4,
+    "PassengerCapacity": 730,
+    "VehicleCapacity": 60,
+    "MaxSpeed": 13,
+    "ShipType": 1,
+    "Image": "valun"
+  }
+
+]

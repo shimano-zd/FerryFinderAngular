@@ -1,0 +1,32 @@
+.ferry-choice-tile-wrapper {
+  width: 200px;
+  display: grid;
+  grid-template-rows: auto auto;
+  border-radius: 5px;
+  box-shadow: 1px 1px 5px 1px #dee2e6;
+  padding: 10px;
+  cursor: pointer;
+}
+
+  .ferry-choice-tile-wrapper:hover {
+    transform: scale(1.05);
+  }
+
+  .ferry-choice-tile-wrapper .icon-section {
+    width: 100%;
+    height: auto;
+    display: grid;
+    place-items: center;
+  }
+
+  .ferry-choice-tile-wrapper .title-section {
+    font-size: 1.5rem;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+  }
+
+.choice-image {
+  height: 50px;
+}

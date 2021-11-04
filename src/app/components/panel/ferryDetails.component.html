@@ -1,0 +1,27 @@
+<div class="ferry-details-panel-wrapper" *ngIf="ferry">
+
+  <img src="{{getFerryImage()}}" class="ferry-picture" />
+
+  <div class="ferry-details-categories">
+    <span class="category-title">Name</span>
+    <span class="category-data"> {{ ferry.Name }} </span>
+
+    <span class="category-title">Length</span>
+    <span class="category-data">{{ ferry.Length }} m</span>
+
+    <span class="category-title">Width</span>
+    <span class="category-data"> {{ ferry.Width }} m</span>
+
+    <span class="category-title">Draft</span>
+    <span class="category-data">{{ ferry.Draft }} m</span>
+
+    <span class="category-title">Max speed</span>
+    <span class="category-data">{{ ferry.MaxSpeed }} knots</span>
+
+    <span class="category-title">Passenger capacity</span>
+    <span class="category-data">{{ ferry.PassengerCapacity }}</span>
+
+    <span class="category-title">Vehicle capacity</span>
+    <span class="category-data">{{ ferry.VehicleCapacity }} </span>
+  </div>
+</div>

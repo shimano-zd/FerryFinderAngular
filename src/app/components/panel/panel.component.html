@@ -1,0 +1,14 @@
+<div>
+  <div class="panel-overlay" (click)="closePanel()">
+
+  </div>
+  <div class="ferry-panel-wrapper">
+    <div class="ferry-panel-title">
+      <img src="{{images.close }}" (click)="closePanel()" class="panel-close-button" />
+      <span class="panel-title-text">{{ panelTitle }}</span>
+    </div>
+
+    <ng-template panelContent></ng-template>
+
+  </div>
+</div>

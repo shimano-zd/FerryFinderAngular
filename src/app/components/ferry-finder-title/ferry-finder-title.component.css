@@ -1,0 +1,17 @@
+.ferry-finder-title-wrapper {
+  padding-bottom: 60px;
+  color: var(--font-primary);
+}
+
+  .ferry-finder-title-wrapper .title {
+    font-size: 3rem;
+  }
+
+  .ferry-finder-title-wrapper .subtitle {
+    font-size: 1.5rem;
+  }
+
+.title, .subtitle {
+  display: flex;
+  justify-content: center;
+}

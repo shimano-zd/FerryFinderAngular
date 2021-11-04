@@ -1,0 +1,10 @@
+.templated-list-item {
+  padding: 5px 10px;
+}
+
+  .templated-list-item.hoverable:hover {
+    background-color: var(--bg-accent);
+    color: var(--font-inverse);
+    cursor: pointer;
+  }
+

@@ -1,0 +1,13 @@
+<div class="ferry-finder-index-wrapper">
+
+  <app-ferry-finder-title></app-ferry-finder-title>
+ 
+  <div class="index-choice">
+
+    <app-navigation-tile title="Ferries" imgSrc="{{images.ferry}}" (onClick)="onFerriesClick($event)" route="ferries"></app-navigation-tile>
+    <app-navigation-tile title="Schedule" imgSrc="{{images.schedule}}" (onClick)="onScheduleClick($event)" route="schedule"></app-navigation-tile>
+
+  </div>
+
+
+</div>

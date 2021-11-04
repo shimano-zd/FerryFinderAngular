@@ -1,0 +1,15 @@
+<div class="ferry-list-wrapper">
+
+      <app-search-bar (search)="filterFerries($event)" [title]="title"></app-search-bar>
+
+      <app-list-view class="overflow-hidden">
+
+          <app-list-view-item *ngFor="let ferry of filteredFerries" (onClick)="ferry.OnClick()" [hoverable]="true">
+              <span>{{ ferry.Name }}</span>
+          </app-list-view-item>
+
+        </app-list-view>
+
+    <router-outlet class="hidden"></router-outlet>
+
+ </div>
